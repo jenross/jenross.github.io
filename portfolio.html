@@ -9,22 +9,23 @@
       content="Check out the portfolio site for Jennifer Ross, a web developer based in Orlando, FL."
     />
     <title>Jennifer Ross' Portfolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header role="banner">
-      <div class="website-navbar">
+    <header role="banner" class="website-navbar">
         <a href="index.html" class="logo">Jennifer Ross</a>
         <nav role="navigation">
-          <a class="nav-links" href="index.html">About</a>
-          <a class="nav-links" href="portfolio.html">Portfolio</a>
-          <a class="nav-links" href="contact.html">Contact</a>
+          <ul>
+            <li><a class="nav-links" href="index.html">About</a></li>
+            <li><a class="nav-links" href="portfolio.html">Portfolio</a></li>
+            <li><a class="nav-links" href="contact.html">Contact</a></li>
+          </ul>
         </nav>
-      </div>
     </header>
-    <main role="main" class="main-container">
       <section class="portfolio-section">
-        <h1>Portfolio</h1>
+        <h2>Portfolio</h2>
             <div class="portfolio-items">
                 <img src="assets/images/placeholder1.jpeg" alt="Hangman" class="portfolio-image">
                 <h3>Hangman</h3>
@@ -50,7 +51,6 @@
                 <h3>Rock Paper Scissors</h3>
             </div>
       </section>
-    </main>
     <footer role="contentinfo" class="footer-container">
       <p class="footer-content">Created by Jennifer Ross, Copyright © 2019</p>
     </footer>

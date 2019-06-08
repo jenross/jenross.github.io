@@ -4,57 +4,92 @@
 
 body {
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777;
-    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    background: url('../images/dark-plant-background.jpg');
+    background-size: contain;
+    background: cover no-repeat;
 }
 
-h1 {
+h2 {
+    color: #505656;
     font-size: 30px;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 2px solid #444;
+    padding: 20px;
+    position: absolute;
+    clear: both;
 }
 
-.website-navbar {
-    border: 2px solid #cccccc;
-    background-color: #ffffff;
-    height: 75px;
-    flex-direction: row;
+.top-container {
+
 }
 
 .logo {
-    background-color: #4aaaa5;
+    width: 230px;
+    height: 80px;
+    text-align: center;
+    background-color: #505656;
     color: #ffffff;
+    position: absolute;
+    font-size: 30px;
     text-decoration: none;
-    height: 75px;
+    padding: 20px;
+    margin-left: 135px;
 }
 
 .nav-links {
-    color: #777777;
+    color: #505656;
+    border-right: 1px solid #444;
+    margin-right: 10px;
+    position: absolute;
 }
 
-.main-container {
-    max-width: 960px;
-    width: 100%;
+.website-navbar {
+    width: 100%
+    background-color: rgba(242, 242, 242, 0.8);
+    height: 200px;
+    position: relative;
+}
+
+.section-container {
+    
+}
+
+.about-me {
     margin: 0 auto;
-    text-align: center;
-    display: flex; 
+    height: 450px;
+    max-width: 960px;
+    background-color: rgba(242, 242, 242, 0.8);
+    border: 2px solid #444;
+    margin-bottom: 20px;
+    position: relative;
 }
 
-.about-me-section {
-    background-color: #ffffff;
-    border: 2px solid #dddddd;
-    margin: 25px;
+.about-me-content {
+    float: right;
+    position: absolute;
+    line-height: normal;
+    margin-left: 350px;
+    margin-top: 200px;
+}
+
+.me {
+    margin-left: 20px;
+    margin-top: 90px;
+    position: absolute;
+    max-width: 300px;
 }
 
 .footer-container {
-    background-color: #666666;
     width: 100%;
-    height: 50px;
+    height: 70px;
+    background-color: rgba(242, 242, 242, 0.8);
+    border-top: 8px solid #444;
+    clear: both;
 }
 
 .footer-content {
-    font-size: 12px;
-    color: #ffffff;
-    text-align: center; 
+    text-align: center;
+    padding: 20px;
 }
