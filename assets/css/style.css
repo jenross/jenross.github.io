@@ -17,8 +17,8 @@ h2 {
     font-weight: bold;
     border-bottom: 2px solid #444;
     padding: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 header {
@@ -46,7 +46,7 @@ header {
 
 nav {
     display: flex;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 nav a {
@@ -80,6 +80,15 @@ nav a:hover {
     line-height: normal;
     padding: 20px;
     margin-left: 10px;
+}
+
+.about-me-container p a {
+    text-decoration: none;
+    color: #505656;
+}
+
+.about-me-container p a:hover {
+    color: #222;
 }
 
 .me {
