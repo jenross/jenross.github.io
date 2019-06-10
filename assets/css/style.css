@@ -44,9 +44,9 @@ header {
     margin-right: 270px;
 }
 
-nav ul {
+nav {
     display: flex;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 nav a {
@@ -55,6 +55,15 @@ nav a {
     font-size: 20px;
     text-align: center;
     text-decoration: none;
+    border-left: 1px solid #444;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+nav a:hover {
+    color: #222;
 }
 
 .about-me-container {
@@ -138,16 +147,24 @@ textarea {
 
 .portfolio-items {
     float: left;
-    margin-left: 40px;
-    margin-top: 20px;
+    margin: 20px;
     position: relative;
 }
 
+.portfolio-image {
+    height: 170px;
+    width: 280px;
+    margin: 20px;
+}
+
 h3 {
-    width: 100%;
+    width: 280px;
     background-color: #505656;
     height: 50px;
     color: #fff;
     text-align: center;
     padding: 15px;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 20px;
 }
